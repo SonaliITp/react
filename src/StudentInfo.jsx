@@ -1,0 +1,48 @@
+import React from 'react'
+
+function StudentInfo() {
+
+    const students =[
+    { sid: 1, name: "Alice Johnson", city: "New York", marks: 85 },
+    { sid: 2, name: "Bob Smith", city: "Los Angeles", marks: 78 },
+    { sid: 3, name: "Charlie Brown", city: "Chicago", marks: 92 },
+    { sid: 4, name: "David Lee", city: "Houston", marks: 88 },
+    { sid: 5, name: "Emma Wilson", city: "Phoenix", marks: 75 },
+    { sid: 6, name: "Frank Thomas", city: "Philadelphia", marks: 90 },
+    { sid: 7, name: "Grace Miller", city: "San Antonio", marks: 81 },
+    { sid: 8, name: "Henry White", city: "San Diego", marks: 95 },
+    { sid: 9, name: "Isabella Davis", city: "Dallas", marks: 87 },
+    { sid: 10, name: "Jack Wilson", city: "San Jose", marks: 80 }
+];
+
+    return (
+
+        <div className='container mt-3 p-3'>
+            <div className='row'>
+
+              {
+                students.map((st)=>{
+                    return(
+                        <>
+                    <div className="card col-lg-3 m-3 p-3" style={{width: "18rem"}}>
+                    <div className="card-body">
+                        <h5 className="card-title">{st.name}</h5>
+                        <p className="card-text">{st.sid}</p>
+                        <p className="card-text">{st.marks}</p>
+                        <p className="card-text">{st.city}</p>
+                    </div>
+                </div>
+                </>
+              )
+
+                }) 
+            }              
+                
+            </div>
+
+
+        </div>
+    )
+}
+
+export default StudentInfo

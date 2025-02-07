@@ -1,0 +1,42 @@
+.App
+{
+    text-align: center;
+}
+
+/* li 
+{
+    list-style-type: none;
+    background-color:antiquewhite;
+    margin-bottom:20px
+}
+li:hover 
+{
+    background-color: lightcoral;
+}
+.color
+{
+    background-color: lightcoral;
+}
+
+button
+{
+    margin: auto;
+    width:150px;
+}
+.card 
+{
+    display: flex;
+    flex-direction: column;
+}
+.button_disable
+{
+    cursor: not-allowed;
+    border-radius: 20px;
+}
+.button_enable
+{
+    border-radius: 20px;
+    background-color: green;
+    color:white;
+      
+} */

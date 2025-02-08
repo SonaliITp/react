@@ -26,6 +26,7 @@ function App()
       <h2>Lerning Lazy Loading ....</h2>
       <Suspense fallback={<h2>Please Wait...Data loading...</h2>}>
       <lazyloading></lazyloading>
+      <p>new commit</p>
       </Suspense>
      
       </div>    

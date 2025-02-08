@@ -6,6 +6,7 @@ function Contact() {
             <h3 className='text-dark'>This is Contact Component</h3>
             <p>welcome</p>
             <p>Add new Change</p>
+            <p>Add new chnage in local repo</p>
         </div>
     )
 }
